@@ -7,11 +7,15 @@ Created for educational purposes only, as part of IBM's Capture the flag
 
 Simply run the following line in your command line. Notice required and optional arguments.
 
-'''bash
-python brute_force.py <file> <max_length> [<-u UPPERCASE> <-l LOWERCASE> <-d digits> <-s symbols>]
-'''
+```bash
+For brute force:
+python main.py <zip file> <max_length> [<-u UPPERCASE> <-l LOWERCASE> <-d digits> <-s symbols>]
+
+For Dictionary:
+python main.py <zip file> <max_length> [<-d DICTIONARRY ATTACK> <dict file>]
+```
 
 ## Algorithms
 
 1) Simple Brute force
-2) Dictionary (coming soon)
+2) Dictionary
